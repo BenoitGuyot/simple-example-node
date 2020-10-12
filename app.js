@@ -38,4 +38,12 @@ app.use(function (err, req, res, next) {
     res.render('error');
 });
 
+const { Pool } = require('pg')
+
+const pool = new Pool({
+  connectionString: process.env.QOVERY_DATABASE_MY_DB_CONNECTION_URI,
+})
+
+// your can use your connection pool now ...
+
 module.exports = app;

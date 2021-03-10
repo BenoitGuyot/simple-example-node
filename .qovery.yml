@@ -1,11 +1,11 @@
 ---
 application:
   name: "simple-example-node"
-  project: "Test Ben"
+  project: "test new project ben"
   organization: "QoveryCommunity"
 databases:
 - type: "POSTGRESQL"
-  name: "test-ben-database"
+  name: "Test for jira ticket"
   version: "10"
 routers:
 - name: "main-simple-example-node"
